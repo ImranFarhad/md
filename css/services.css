@@ -1,0 +1,69 @@
+
+.my_services{
+    height: 90vh;
+    background: #1E2E47;
+}
+.services_content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+.card{
+    background: #1E2E47;
+    box-shadow: 0 0 10px #3a4f70;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-2rem);
+    -webkit-transform: translateY(-2rem);
+    -moz-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    -o-transform: translateY(-2rem);
+}
+.card h2{
+    background: #2499de;
+    background: linear-gradient(to right, #61d5ff 0%, #f90372 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 992px){
+    .services{
+        margin-top: 35rem;
+        height: 100vh;
+    }
+    .services_content{
+        padding-top: 3rem;
+    }
+}
+@media (max-width: 768px){
+    .services{
+        margin-top: 25rem;
+        height: 30vh;
+    }
+    .services_content{
+        padding-top: 8rem;
+    }
+}
+
+
+@media (max-width: 600px){
+    .services{
+    }
+    .services_content{
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 400px){
+    .services{
+        margin-top: 35rem;
+    }
+    .sub_hadding{
+        font-size: 1rem;
+    }
+}

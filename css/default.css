@@ -1,0 +1,237 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;800&display=swap');
+font{
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+/* All Var Colors Start */
+/*____________________________*/
+
+:root{
+	--primary: #374151;
+	--secondary: #DB2777;
+	--skyblue: #14caf7;
+	--dark: #000;
+	--dark_lingt: rgb(27, 26, 26);
+	--pure: #FFF;
+	--footer: #1E243B;
+} 
+/* ========================= */
+/* All Colors End */
+
+
+/* 1. Theme default css */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+ body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	background: #1E2E47;
+}
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
+	/* color: var(--light); */
+}
+
+.container{
+	max-width: 80%;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+
+/* button style */
+.submit{
+	outline: none;
+	border: none;
+	font-size: 14px;
+}
+/* .btn {
+	-moz-user-select: none;
+	background: var(--secondary) none repeat scroll 0 0;
+	border-radius: 5px;
+	border-radius: 2px;
+	color: var(--pure);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	padding: 10px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	box-shadow: inset 0 0 0 0 var(--link);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+} */
+
+.btn{
+	display: inline-block;
+    background: linear-gradient(to right,var(--skyblue) 0%,var(--secondary) 50%, var(--skyblue));
+    color: #fff;
+    letter-spacing: 0;
+    font-size: 1rem;
+    line-height: 50px;
+    padding: 0 1.5rem;
+    outline: none!important;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-size: 200% auto;
+	transition: all 0.4s ease-out;
+}
+.btn:hover{
+	background-position: right center;
+    color: #fff;
+}
+
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: var(--dark_lingt);
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+p{
+	color: var(--pure);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	margin: 1rem 0;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: normal;
+	color: var(--pure);
+}
+
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.17em;
+}
+h4{
+	font-size: 1em;
+}
+h5{
+	font-size: 0.83em;
+}
+h6{
+	font-size: 0.75em;
+}
+.hadding{
+	font-weight: bold;
+    font-size: 5vh;
+    text-align: center;
+	line-height: 0;
+	color: var(--pure);
+}
+.sub_hadding{
+    font-weight: bold;
+    font-size: 3vh;
+    color: var(--secondary);
+	position: relative;
+	display: inline-block;
+	padding: 0 6rem;
+    text-align: center;
+	background: #2499de;
+    background: linear-gradient(to right, #61d5ff 0%, #f90372 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.who{
+	text-align: center;
+}
+.sub_hadding::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 00%;
+    width: 5rem;
+    height: .3rem;
+    background: var(--pure);
+    border-radius: 1rem;
+}
+.sub_hadding::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 0%;
+    width: 5rem;
+    height: .3rem;
+    background: var(--pure);
+    border-radius: 1rem;
+}
+
+/* font weight */
+.f-700{font-weight: 700;}
+.f-600{font-weight: 600;}
+.f-500{font-weight: 500;}
+.f-400{font-weight: 400;}
+.f-300{font-weight: 300;}
+
+/* Background Color */
+
+
+/* TEXT GRADIENT COLOR CSS */
+/* ============================= */
+/* background: linear-gradient(to right, #af0fff 20%, #21e1ff, #f8ffc6 40%, #f60274);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+
+
+.hero_hedding{
+	margin-top: 15%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 7rem;
+	/* background: #46027b; */
+	background: linear-gradient(to right, #af0fff 20%, #21e1ff, #f8ffc6 40%, #f60274);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
+
+
+
+
+
+
+
+

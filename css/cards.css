@@ -1,0 +1,30 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.card{
+    background: var(--primary);
+    padding: 2rem;
+    border-radius: .5rem;
+    color: var(--pure);
+    cursor: pointer;
+}
+.card .card_icon{
+    font-weight: bold;
+    color: var(--secondary);
+    font-size: 5rem;
+}
+
+.card h2{
+    font-size: 3rem;
+    color: var(--pure);
+}
+
+@media (max-width: 480px) {
+    .card h2{
+        font-size: 2rem;
+    }
+}

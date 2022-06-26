@@ -1,0 +1,48 @@
+/* All Var Colors Start */
+/*____________________________*/
+
+:root{
+	--primary: #374151;
+	--secondary: #DB2777;
+	--dark: #000;
+	--pure: #FFF;
+	--footer: #2D333F;
+}  
+/* ========================= */
+/* All Colors End */
+
+
+
+/* Sm :640px. */
+@media (max-width: 640px) {
+    
+}
+  
+
+/* Md  :768px. */
+@media (max-width: 768px) {
+  .btn{
+    display: block;
+    margin: 0 2rem;
+  }
+}
+
+/* Lg :1024px. */
+@media (max-width: 830px) {
+  
+}
+@media (max-width: 1024px) {
+  
+}
+
+/* Xl :1280px. */
+@media (max-width: 1280px) {
+
+}
+
+/* 2Xl :1536px */
+@media (max-width: 1536px) {
+
+}
+
+ 

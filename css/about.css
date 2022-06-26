@@ -1,0 +1,157 @@
+.farhad2{
+    background: #2499de;
+    background: linear-gradient(to right, #61d5ff 0%, #f90372 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: #1E2E47;
+}
+
+.about_content{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.about_content{
+    /* margin-top: 3rem; */
+}
+
+.about_left{
+    width: 50%;
+    padding: 5rem;
+}
+.about_right{
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5vh;
+    text-align: left;
+}
+.about_right h3{
+    font-size: 2vw;
+}
+.about_right p{
+    font-size: .9vw;
+}
+.btn{
+    font-size: 1rem;
+    padding: 0;
+    display: inline-block;
+    width: 10rem;
+}
+/* ====================================================== */
+    /* Responsive */
+/* ====================================================== */
+@media (max-width: 992px) {
+    .about{
+        min-width: 100%;
+        padding-top: 10rem;
+        padding-bottom: 0;
+        height: 40vh;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .about h2{
+        font-size: 6vh;
+        transition: all .4s ease-out;
+        line-height: -0rem;
+    }
+    .about h6{
+        font-size: 3vh;
+        transition: all .4s ease-out;
+    }
+    .about_content{
+        min-width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        gap: 0;
+    }
+
+    .about_left{
+        width: 50%;
+        padding: 1rem;
+    }
+    .about_right{
+        width: 50%;
+        padding: 1rem;
+        font-size: 1.5vh;
+    }
+    .about_right h3{
+        font-size: 3.5vw;
+    }
+    .about_right p{
+        font-size: 2vw;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 0;
+        display: inline-block;
+        width: 10rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .about{
+        min-width: 100%;
+        margin-top: 20rem;
+        padding-bottom: 0;
+        height: 40vh;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+
+    .about_left{
+        width: 80%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .about_right{
+        width: 90%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .about_right h3{
+        font-size: 3.5vw;
+    }
+    .about_right p{
+        font-size: 2.2vw;
+    }
+    .dwonload_cv_btn{
+        font-size: 1rem;
+        padding: 0;
+        display: inline-block;
+        width: 10rem;
+        position: absolute;
+        left: -15px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .about{
+        margin-top: -8rem;
+        height: auto;
+
+    }
+    .about_content{
+        display: block;
+        clear: both;
+ 
+    }
+    .about_right h3{
+        font-size: 5vw;
+    }
+    .about_right p{
+        font-size: 3vw;
+    }
+}
